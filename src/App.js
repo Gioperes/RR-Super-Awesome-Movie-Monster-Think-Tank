@@ -17,6 +17,14 @@ function App() {
           <AboutUs />
           <Packages />
         </Suspense>
+        {/* <Suspense fallback={<Loader 
+            type="Bars" 
+            color="#FF00FF" 
+            height={200} 
+            width={200} 
+            style={{margin: "0 auto"}}/>}>
+          <h1>Hello World</h1>
+        </Suspense> */}
       </div>
     </div>
   );
